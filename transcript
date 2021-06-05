@@ -37,3 +37,8 @@ quit -sim
 # Compile of genImm32.vhd was successful.
 # Compile of tb_genImm32.vhd was successful.
 # 2 compiles, 0 failed with no errors.
+# Compile of genImm32.vhd was successful.
+# Compile of tb_genImm32.vhd was successful.
+# Compile of ula.vhd was successful.
+# Compile of tb_ula.vhd was successful.
+# 4 compiles, 0 failed with no errors.
