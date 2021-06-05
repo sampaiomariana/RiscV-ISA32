@@ -56,3 +56,21 @@ quit -sim
 # Compile of mux2_32bits.vhd was successful.
 # Compile of pc.vhd was successful.
 # 6 compiles, 0 failed with no errors.
+# Compile of genImm32.vhd was successful.
+# Compile of tb_genImm32.vhd was successful.
+# Compile of ula.vhd was successful.
+# Compile of tb_ula.vhd was successful.
+# Compile of mux2_32bits.vhd was successful.
+# Compile of pc.vhd was successful.
+# Compile of adder.vhd failed with 1 errors.
+# Compile of adder4.vhd was successful.
+# 8 compiles, 1 failed with 1 error.
+# Compile of genImm32.vhd was successful.
+# Compile of tb_genImm32.vhd was successful.
+# Compile of ula.vhd was successful.
+# Compile of tb_ula.vhd was successful.
+# Compile of mux2_32bits.vhd was successful.
+# Compile of pc.vhd was successful.
+# Compile of adder.vhd was successful.
+# Compile of adder4.vhd was successful.
+# 8 compiles, 0 failed with no errors.
