@@ -18,11 +18,11 @@ architecture arch_genImm32 of genImm32 is
 
 -- Iniciando a arquitetura 
 begin
-	-- vector tera o bit mais significativo
+	-- vector terá o bit mais significativo
 	vector <= (others => instr(31));
 	-- Tipos de imediatos 
 	-- Tipo R recebe 0 de [31:12] [11:7] => rd e [6:0] x = opcode 0x33
-	-- n eh convertido em um sinal do tipo unsigned
+	-- n é convertido em um sinal do tipo unsigned
 		n <= (31 downto 0 => '0') when unsigned (instr( 6 downto 0)) = x"33" else -- Tipo R
 		vector & instr(31 downto 20) when unsigned(instr(6 downto 0))=x"03" or unsigned(instr(6 downto 0))=x"13" or unsigned (instr(6 downto 0))=x"67" else -- Tipo I
 		vector & instr(31 downto 25) & instr(11 downto 7) when unsigned (instr(6 downto 0))=x"23" else -- Tipo S
@@ -31,7 +31,7 @@ begin
 		instr (31 downto 12) &  "000000000000" when unsigned (instr(6 downto 0))=x"6F" else -- Tipo UJ
 		instr;
 
--- O imediato recebe o sinal que eh obtido de n
+-- O imediato recebe o sinal que é obtido de n
 imm32 <= signed(n);
 
 -- Finaliza a arquitetura	
