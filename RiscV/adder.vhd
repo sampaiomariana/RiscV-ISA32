@@ -11,7 +11,7 @@ entity adder is
     Z : out std_logic_vector(31 downto 0));
 end entity adder;
 
-architecture arch_adder OF adder IS
+architecture arch_adder of adder is
 
 begin
 

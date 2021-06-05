@@ -10,7 +10,7 @@ entity adder4 is
     Z : out std_logic_vector(31 downto 0));
 end entity adder4;
 
-architecture arch_adder4 OF adder4 is
+architecture arch_adder4 of adder4 is
 
 signal A_signal : INTEGER;
 

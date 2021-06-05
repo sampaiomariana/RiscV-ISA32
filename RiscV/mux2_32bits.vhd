@@ -11,7 +11,7 @@ entity mux2_32bits is
     Result : out std_logic_vector(31 DOWNTO 0));
 end mux2_32bits;
 
-architecture arch_mux OF mux2_32bits IS
+architecture arch_mux of mux2_32bits is
 
 begin
 
