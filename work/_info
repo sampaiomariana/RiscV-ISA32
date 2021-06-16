@@ -156,7 +156,7 @@ Z30 !s110 1623808138
 !i10b 1
 R24
 Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/control_ula.vhd|
-!s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/control_ula.vhd|
+Z32 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/control_ula.vhd|
 !i113 1
 R12
 R13
@@ -175,7 +175,7 @@ R30
 !i10b 1
 R24
 R31
-Z32 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/control_ula.vhd|
+R32
 !i113 1
 R12
 R13
@@ -270,25 +270,25 @@ R46
 R12
 R13
 Emem_rom
-Z47 w1623806860
+Z47 w1623811084
 R1
 R2
 R3
-!i122 73
+!i122 77
 R4
 Z48 8C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memrom.vhd
 Z49 FC:/Users/sampa/Desktop/RiscV ISA32/RiscV/memrom.vhd
 l0
 L10 1
-VAk54B0G@lbGNZSGi>j1B90
-!s100 jJ>W?IY=li61QOAOiNVfR1
+VfXfQTkM?=`_k^kJU6l1K80
+!s100 0lGPI3IDP7<LUJF]oF[:j3
 R7
 32
-R23
+Z50 !s110 1623811097
 !i10b 1
-R24
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memrom.vhd|
-Z51 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memrom.vhd|
+Z51 !s108 1623811097.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memrom.vhd|
+Z53 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memrom.vhd|
 !i113 1
 R12
 R13
@@ -296,31 +296,31 @@ Artl
 R1
 R2
 R3
-DEx4 work 7 mem_rom 0 22 Ak54B0G@lbGNZSGi>j1B90
-!i122 73
+DEx4 work 7 mem_rom 0 22 fXfQTkM?=`_k^kJU6l1K80
+!i122 77
 l59
 L19 46
 Vc=mRbGPz:;EC57T7B_1:f1
 !s100 WC:B@>;;N[SH_EM;>_MJE0
 R7
 32
-R23
-!i10b 1
-R24
 R50
+!i10b 1
 R51
+R52
+R53
 !i113 1
 R12
 R13
 Emem_rv
-Z52 w1623806804
+Z54 w1623806804
 R1
 R2
 R3
 !i122 72
 R4
-Z53 8C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd
-Z54 FC:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd
+Z55 8C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd
+Z56 FC:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd
 l0
 L6 1
 VabBSzj@i]5Xe39@<d2OCn0
@@ -330,8 +330,8 @@ R7
 R23
 !i10b 1
 R17
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd|
-Z56 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd|
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd|
+Z58 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd|
 !i113 1
 R12
 R13
@@ -350,30 +350,30 @@ R7
 R23
 !i10b 1
 R17
-R55
-R56
+R57
+R58
 !i113 1
 R12
 R13
 Emux2_32bits
-Z57 w1622921520
+Z59 w1622921520
 R2
 R3
 !i122 67
 R4
-Z58 8C:/Users/sampa/Desktop/RiscV ISA32/RiscV/mux2_32bits.vhd
-Z59 FC:/Users/sampa/Desktop/RiscV ISA32/RiscV/mux2_32bits.vhd
+Z60 8C:/Users/sampa/Desktop/RiscV ISA32/RiscV/mux2_32bits.vhd
+Z61 FC:/Users/sampa/Desktop/RiscV ISA32/RiscV/mux2_32bits.vhd
 l0
 L6 1
 VFR0E_C@4Zc=B5U[NLKohD1
 !s100 V4h5bnIhVLa2Wk@[6Tbna1
 R7
 32
-Z60 !s110 1623808135
+Z62 !s110 1623808135
 !i10b 1
 R9
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/mux2_32bits.vhd|
-Z62 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/mux2_32bits.vhd|
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/mux2_32bits.vhd|
+Z64 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/mux2_32bits.vhd|
 !i113 1
 R12
 R13
@@ -388,34 +388,34 @@ V4cE3Q=CPV0g=GW0I<IfhD2
 !s100 gIDk3=Cc`_H>2m;2[Um?n3
 R7
 32
-R60
+R62
 !i10b 1
 R9
-R61
-R62
+R63
+R64
 !i113 1
 R12
 R13
 Epc
-Z63 w1622913499
+Z65 w1622913499
 R1
 R2
 R3
 !i122 68
 R4
-Z64 8C:/Users/sampa/Desktop/RiscV ISA32/RiscV/pc.vhd
-Z65 FC:/Users/sampa/Desktop/RiscV ISA32/RiscV/pc.vhd
+Z66 8C:/Users/sampa/Desktop/RiscV ISA32/RiscV/pc.vhd
+Z67 FC:/Users/sampa/Desktop/RiscV ISA32/RiscV/pc.vhd
 l0
 L7 1
 VMD[oY5jUOzaZ=aH4YhaDg1
 !s100 cT=ef<cNK<?FMGLYf==lc2
 R7
 32
-R60
+R62
 !i10b 1
 R9
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/pc.vhd|
-Z67 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/pc.vhd|
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/pc.vhd|
+Z69 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/pc.vhd|
 !i113 1
 R12
 R13
@@ -431,23 +431,45 @@ V1dG:^T6:IXNKh>n?T3M1=2
 !s100 7SoS]TgJKDT9R1Y<dD[M:1
 R7
 32
-R60
+R62
 !i10b 1
 R9
-R66
-R67
+R68
+R69
+!i113 1
+R12
+R13
+Eriscv_processor
+w1623811401
+R2
+R3
+!i122 82
+R4
+8C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
+FC:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
+l0
+L6 1
+Vao7RNg`2HWfM5Ccoc_E1P0
+!s100 0:?3[_<_caz;EgS8dC1M00
+R7
+32
+!s110 1623811405
+!i10b 1
+!s108 1623811405.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd|
+!s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd|
 !i113 1
 R12
 R13
 Etestbench
-Z68 w1622911717
+Z70 w1622911717
 R1
 R2
 R3
 !i122 64
 R4
-Z69 8C:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd
-Z70 FC:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd
+Z71 8C:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd
+Z72 FC:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd
 l0
 L7 1
 V?W8WA3L4`]PaV:U3M_@521
@@ -457,8 +479,8 @@ R7
 R38
 !i10b 1
 R39
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd|
-Z72 !s107 C:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd|
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd|
+Z74 !s107 C:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd|
 !i113 1
 R12
 R13
@@ -477,31 +499,31 @@ R7
 R38
 !i10b 1
 R39
-R71
-R72
+R73
+R74
 !i113 1
 R12
 R13
 Eula_tb
-Z73 w1622912165
+Z75 w1622912165
 R1
 R2
 R3
 !i122 66
 R4
-Z74 8C:/Users/sampa/Desktop/RiscV ISA32/testbench/tb_ula.vhd
-Z75 FC:/Users/sampa/Desktop/RiscV ISA32/testbench/tb_ula.vhd
+Z76 8C:/Users/sampa/Desktop/RiscV ISA32/testbench/tb_ula.vhd
+Z77 FC:/Users/sampa/Desktop/RiscV ISA32/testbench/tb_ula.vhd
 l0
 L5 1
 VWX@i28?E01Z>;j[h3QX0O0
 !s100 U_[TlzCb8R@NhSUPfQ6Q10
 R7
 32
-R60
+R62
 !i10b 1
 R39
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/testbench/tb_ula.vhd|
-Z77 !s107 C:/Users/sampa/Desktop/RiscV ISA32/testbench/tb_ula.vhd|
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/testbench/tb_ula.vhd|
+Z79 !s107 C:/Users/sampa/Desktop/RiscV ISA32/testbench/tb_ula.vhd|
 !i113 1
 R12
 R13
@@ -517,23 +539,23 @@ VV^YK;nQEd1D9N:b=iASXI0
 !s100 3ccPUS51^b0;BIcFmUJ4j3
 R7
 32
-R60
+R62
 !i10b 1
 R39
-R76
-R77
+R78
+R79
 !i113 1
 R12
 R13
 Eularv
-Z78 w1622912102
+Z80 w1622912102
 R1
 R2
 R3
 !i122 65
 R4
-Z79 8C:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd
-Z80 FC:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd
+Z81 8C:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd
+Z82 FC:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd
 l0
 L5 1
 VfOXBBSU_jmQ4`QXXGcjZ70
@@ -543,8 +565,8 @@ R7
 R38
 !i10b 1
 R39
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd|
-Z82 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd|
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd|
+Z84 !s107 C:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd|
 !i113 1
 R12
 R13
@@ -563,8 +585,8 @@ R7
 R38
 !i10b 1
 R39
-R81
-R82
+R83
+R84
 !i113 1
 R12
 R13

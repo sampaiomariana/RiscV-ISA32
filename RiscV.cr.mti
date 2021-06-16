@@ -7,6 +7,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity pc
 -- Compiling architecture arch_pc of pc
 
+} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_rv
+-- Compiling architecture arch_memram of mem_rv
+
 } {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/testbench/tb_ula.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/testbench/tb_ula.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -15,6 +24,50 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity ula_tb
 -- Compiling architecture tb_arch of ula_tb
+
+} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/breg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/breg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_reg
+-- Compiling architecture arch_breg of mem_reg
+
+} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testbench
+-- Compiling architecture arch_genImm32_teste of testbench
+
+} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/control.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/control.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity control
+-- Compiling architecture arch_control of control
+
+} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ulaRV
+-- Compiling architecture ula of ulaRV
+
+} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/mux2_32bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/mux2_32bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_32bits
+-- Compiling architecture arch_mux of mux2_32bits
 
 } {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/genImm32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/genImm32.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -27,22 +80,30 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity genImm32
 -- Compiling architecture arch_genImm32 of genImm32
 
-} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/tb_genImm32.vhd}
+} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/adder4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/adder4.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity testbench
--- Compiling architecture arch_genImm32_teste of testbench
+-- Compiling entity adder4
+-- Compiling architecture arch_adder4 of adder4
 
-} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/ula.vhd}
+} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/adder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity ulaRV
--- Compiling architecture ula of ulaRV
+-- Compiling entity adder
+-- Compiling architecture arch_adder of adder
+
+} {} {}} {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/control_ula.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sampa/Desktop/RiscV ISA32/RiscV/control_ula.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control_alu
+-- Compiling architecture arch_control_ula of control_alu
 
 } {} {}}

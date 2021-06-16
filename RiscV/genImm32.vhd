@@ -6,7 +6,7 @@ use ieee.std_logic_unsigned.all;
 entity genImm32 is 
 	port(
 		instr : in std_logic_vector(31 downto 0); -- 32
-		imm32: out signed(31 downto 0));
+		result_imm : out std_logic_vector(31 downto 0));  -- já selecionado
 end genImm32;
 	   
 architecture arch_genImm32 of genImm32 is

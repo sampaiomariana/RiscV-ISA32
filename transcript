@@ -33,3 +33,10 @@
 # Compile of control.vhd was successful.
 # Compile of control_ula.vhd was successful.
 # 13 compiles, 0 failed with no errors.
+# Compile of memrom.vhd was successful.
+# Compile of memrom.vhd was successful.
+# Compile of Processor.vhd failed with 11 errors.
+# Compile of Processor.vhd failed with 11 errors.
+# Compile of Processor.vhd failed with 10 errors.
+# Compile of Processor.vhd failed with 10 errors.
+# Compile of Processor.vhd failed with 7 errors.

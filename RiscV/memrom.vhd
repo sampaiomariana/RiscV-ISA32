@@ -10,9 +10,9 @@ use std.textio.all;
 entity mem_rom is
 	generic (n: integer := 8; size: natural := 32);
 	port (
-	clock : in std_logic;
-	address: in std_logic_vector(n-1 downto 0);
-	dataout: out std_logic_vector(size - 1 downto 0)
+	--clock : in std_logic;
+	address: in std_logic_vector(11 downto 0);
+	dataout: out std_logic_vector(31 downto 0)
 	);
 end mem_rom;
 
