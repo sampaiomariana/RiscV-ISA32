@@ -1,70 +1,12 @@
 # Compile of genImm32.vhd was successful.
 # Compile of tb_genImm32.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.testbench
-# vsim -gui work.testbench 
-# Start time: 13:34:18 on Jun 05,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.testbench(arch_genimm32_teste)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.genimm32(arch_genimm32)
-add wave sim:/testbench/*
-run
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/teste
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/teste
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/teste
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/teste
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/teste
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/teste
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/teste
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/teste
-quit -sim
-# End time: 13:35:08 on Jun 05,2021, Elapsed time: 0:00:50
-# Errors: 0, Warnings: 14
-# 0 compiles, 2 failed with no errors.
-# Compile of genImm32.vhd was successful.
-# Compile of tb_genImm32.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of genImm32.vhd was successful.
-# Compile of tb_genImm32.vhd was successful.
-# Compile of ula.vhd was successful.
-# Compile of tb_ula.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of genImm32.vhd was successful.
-# Compile of tb_genImm32.vhd was successful.
-# Compile of ula.vhd was successful.
-# Compile of tb_ula.vhd was successful.
-# Compile of mux2_32bits.vhd was successful.
-# Compile of pc.vhd failed with 1 errors.
-# 6 compiles, 1 failed with 1 error.
-# Compile of genImm32.vhd was successful.
-# Compile of tb_genImm32.vhd was successful.
 # Compile of ula.vhd was successful.
 # Compile of tb_ula.vhd was successful.
 # Compile of mux2_32bits.vhd was successful.
 # Compile of pc.vhd was successful.
-# 6 compiles, 0 failed with no errors.
-# Compile of genImm32.vhd was successful.
-# Compile of tb_genImm32.vhd was successful.
-# Compile of ula.vhd was successful.
-# Compile of tb_ula.vhd was successful.
-# Compile of mux2_32bits.vhd was successful.
-# Compile of pc.vhd was successful.
-# Compile of adder.vhd failed with 1 errors.
+# Compile of adder.vhd was successful.
 # Compile of adder4.vhd was successful.
-# 8 compiles, 1 failed with 1 error.
+# 8 compiles, 0 failed with no errors.
 # Compile of genImm32.vhd was successful.
 # Compile of tb_genImm32.vhd was successful.
 # Compile of ula.vhd was successful.
@@ -73,4 +15,21 @@ quit -sim
 # Compile of pc.vhd was successful.
 # Compile of adder.vhd was successful.
 # Compile of adder4.vhd was successful.
-# 8 compiles, 0 failed with no errors.
+# Compile of breg.vhd was successful.
+# Compile of memram.vhd was successful.
+# Compile of memrom.vhd was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of genImm32.vhd was successful.
+# Compile of tb_genImm32.vhd was successful.
+# Compile of ula.vhd was successful.
+# Compile of tb_ula.vhd was successful.
+# Compile of mux2_32bits.vhd was successful.
+# Compile of pc.vhd was successful.
+# Compile of adder.vhd was successful.
+# Compile of adder4.vhd was successful.
+# Compile of breg.vhd was successful.
+# Compile of memram.vhd was successful.
+# Compile of memrom.vhd was successful.
+# Compile of control.vhd was successful.
+# Compile of control_ula.vhd was successful.
+# 13 compiles, 0 failed with no errors.
