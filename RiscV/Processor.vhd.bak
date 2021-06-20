@@ -159,10 +159,10 @@ component mem_rv
     data_out : out std_logic_vector(31 downto 0));
 end component;
 
-component mem_rom
+component mem_instr
   port (
     address: in std_logic_vector(11 downto 0);
-  	dataout: out std_logic_vector(31 downto 0));
+	dataout: out std_logic_vector(31 downto 0));
 end component;
 
 
@@ -227,12 +227,12 @@ begin
     Z => adder4out_signal);
 
   -- mux A
-  -- muxA_inst08 : mux2_32bits
-  -- port map (
-  -- Sel => branch_signal AND (jal_signal OR zeroout_signal),
-  -- A => adder4out_signal,
-  -- B => adderout_signal,
-  -- Result => addr_in_signal);
+  --muxA_inst08 : mux2_32bits
+  port map (
+   -- Sel => branch_signal AND (jal_signal OR zeroout_signal),
+   --A => adder4out_signal,
+    --B => adderout_signal,
+   -- Result => addr_in_signal);
 
   -- mux B
   muxB_inst09 : mux2_32bits
