@@ -32,7 +32,7 @@ begin
 		instr;
 
 -- O imediato recebe o sinal que eh obtido de n
-imm32 <= signed(n);
+result_imm <= signed(n)
 
 -- Finaliza a arquitetura	
 end arch_genImm32;
