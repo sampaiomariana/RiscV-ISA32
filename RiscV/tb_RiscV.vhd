@@ -62,6 +62,144 @@ begin
     clock <= '1';
     WAIT FOR 1 us;
 
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+
+
+    
+    clock <= '0';
+    WAIT FOR 1 us;
+    clock <= '1';
+    WAIT FOR 1 us;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+
+
+    
+    clock <= '0';
+    WAIT FOR 1 us;
+    clock <= '1';
+    WAIT FOR 1 us;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+
+
+    
+    clock <= '0';
+    WAIT FOR 1 us;
+    clock <= '1';
+    WAIT FOR 1 us;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+
+
+    
+    clock <= '0';
+    WAIT FOR 1 us;
+    clock <= '1';
+    WAIT FOR 1 us;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+
+
+    
+    clock <= '0';
+    WAIT FOR 1 us;
+    clock <= '1';
+    WAIT FOR 1 us;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+    
+    
+    clock <= '0';
+    WAIT FOR 1 ns;
+    clock <= '1';
+    WAIT FOR 1 ns;
+
+
+
+    
+    clock <= '0';
+    WAIT FOR 1 us;
+    clock <= '1';
+    WAIT FOR 1 us;
+
+    
+    
+  
+
+
+
+
     report "RiscV_processor done" SEVERITY NOTE;
     WAIT;
   end process;

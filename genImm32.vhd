@@ -6,7 +6,7 @@ use ieee.std_logic_unsigned.all;
 entity genImm32 is 
 	port(
 		instr : in std_logic_vector(31 downto 0); -- 32
-		imm32: out signed(31 downto 0));
+		result_imm: out std_logic_vector(31 downto 0));
 end genImm32;
 	   
 architecture arch_genImm32 of genImm32 is
@@ -14,16 +14,16 @@ architecture arch_genImm32 of genImm32 is
 	-- Vector recebe 20 bits no type UJ e U
 	signal vector : std_logic_vector(19 downto 0); -- 20 bits
 	-- Todos os sinais tem que retornar 32 bits
-	signal n : std_logic_vector(31 downto 0); -- 32
+	signal Result : std_logic_vector(31 downto 0); -- 32
 
 -- Iniciando a arquitetura 
 begin
-	-- vector terá o bit mais significativo
+	-- vector tera o bit mais significativo
 	vector <= (others => instr(31));
 	-- Tipos de imediatos 
 	-- Tipo R recebe 0 de [31:12] [11:7] => rd e [6:0] x = opcode 0x33
-	-- n é convertido em um sinal do tipo unsigned
-		n <= (31 downto 0 => '0') when unsigned (instr( 6 downto 0)) = x"33" else -- Tipo R
+	-- Result eh convertido em um sinal do tipo unsigned
+		Result <= (31 downto 0 => '0') when unsigned (instr( 6 downto 0)) = x"33" else -- Tipo R
 		vector & instr(31 downto 20) when unsigned(instr(6 downto 0))=x"03" or unsigned(instr(6 downto 0))=x"13" or unsigned (instr(6 downto 0))=x"67" else -- Tipo I
 		vector & instr(31 downto 25) & instr(11 downto 7) when unsigned (instr(6 downto 0))=x"23" else -- Tipo S
 	 	vector & instr(7) & instr(30 downto 25) & instr(11 downto 8) & '0'  when unsigned(instr(6 downto 0))=x"63" else -- Tipo SB
@@ -31,8 +31,10 @@ begin
 		instr (31 downto 12) &  "000000000000" when unsigned (instr(6 downto 0))=x"6F" else -- Tipo UJ
 		instr;
 
--- O imediato recebe o sinal que é obtido de n
-imm32 <= signed(n);
+-- O imediato recebe o sinal que eh obtido de n
+
+Result <= result_imm;
+
 
 -- Finaliza a arquitetura	
 end arch_genImm32;

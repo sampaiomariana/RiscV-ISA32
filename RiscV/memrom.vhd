@@ -1,64 +1,46 @@
--- Code your design here
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
-use std.textio.all;
+LIBRARY ieee;
+USE ieee.numeric_std.all;
+USE ieee.std_logic_1164.all;
+USE std.textio.all;
 
--- Memória ROM 
--- Memória de instruções
+LIBRARY work;
 
-entity mem_rom is
-	generic (n: integer := 8; size: natural := 32);
-	port (
-	--clock : in std_logic;
-	address: in std_logic_vector(11 downto 0);
-	dataout: out std_logic_vector(31 downto 0)
-	);
-end mem_rom;
+ENTITY mem_rom IS
+  PORT (
+    address : IN STD_LOGIC_VECTOR(11 DOWNTO 0);
+    data_out : OUT STD_LOGIC_VECTOR(31 DOWNTO 0));
+END mem_rom;
 
-architecture RTL of mem_rom is 
-type mem_type is array(0 to 31) of STD_LOGIC_VECTOR (31 downto 0);
-signal mem: mem_type;
--- inicializando memória rom em  "00000000000000000000000000000000"
-signal data_mem: mem_type := (
+ARCHITECTURE arch_mem_rom OF mem_rom IS
 
- 	"00000000000000000000000000000000", 
-        "00000000000000000000000000000000", -- mem 1
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000", 
-        "00000000000000000000000000000000", -- mem 10 
-        "00000000000000000000000000000000", 
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",  
-        "00000000000000000000000000000000", -- mem 20
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000", 
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000",
-        "00000000000000000000000000000000", 
-        "00000000000000000000000000000000", -- mem 30
-        "00000000000000000000000000000000"
-);
+CONSTANT mem_depth : NATURAL := 4096;
+CONSTANT mem_width : NATURAL := 32;
+TYPE mem_type IS ARRAY (0 TO mem_depth - 1)
+    OF STD_LOGIC_VECTOR(mem_width - 1 DOWNTO 0);
 
-begin 
+SIGNAL address_signal : INTEGER := 0;
 
-dataout <= data_mem(to_integer(unsigned(address))) when (to_integer(unsigned(address))<((2**n)-1)) else (others => '0');
+IMPURE FUNCTION init_mem_instr RETURN mem_type IS
+  FILE text_file : TEXT OPEN READ_MODE IS "code.txt";
+  VARIABLE text_line : LINE;
+  VARIABLE mem_content : mem_type;
+  VARIABLE mem_content_bit_vector : BIT_VECTOR(31 DOWNTO 0) := "00000000000000000000000000000000";
+  BEGIN
+    FOR i IN 0 TO mem_depth - 1 LOOP
+      IF (NOT ENDFILE(text_file)) THEN
+        READLINE(text_file, text_line);
+        BREAD(text_line, mem_content_bit_vector);
+        mem_content(i) := TO_STDLOGICVECTOR(mem_content_bit_vector);
+      END IF;
+    END LOOP;
+    RETURN mem_content;
+END FUNCTION;
 
+SIGNAL mem_rom : mem_type := init_mem_instr;
 
-end RTL;
+BEGIN
+
+  address_signal <= TO_INTEGER(UNSIGNED(address)) / 4;
+  data_out <= mem_rom(address_signal);
+
+END arch_mem_rom;

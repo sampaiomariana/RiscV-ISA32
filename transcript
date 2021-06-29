@@ -1,154 +1,11 @@
-# Compile of genImm32.vhd was successful.
-# Compile of tb_genImm32.vhd was successful.
-# Compile of ula.vhd was successful.
+# Compile of memrom.vhd failed with 1 errors.
 # Compile of tb_ula.vhd was successful.
-# Compile of mux2_32bits.vhd was successful.
-# Compile of pc.vhd was successful.
-# Compile of adder.vhd was successful.
-# Compile of adder4.vhd was successful.
-# Compile of breg.vhd was successful.
-# Compile of memram.vhd was successful.
+# Compile of memrom.vhd failed with 1 errors.
 # Compile of memrom.vhd was successful.
-# Compile of control.vhd was successful.
-# Compile of control_ula.vhd was successful.
-# Compile of Processor.vhd failed with 7 errors.
-# 14 compiles, 1 failed with 7 errors.
-# Compile of genImm32.vhd was successful.
-# Compile of tb_genImm32.vhd was successful.
-# Compile of ula.vhd was successful.
-# Compile of tb_ula.vhd was successful.
-# Compile of mux2_32bits.vhd was successful.
-# Compile of pc.vhd was successful.
-# Compile of adder.vhd was successful.
-# Compile of adder4.vhd was successful.
-# Compile of breg.vhd was successful.
 # Compile of memram.vhd was successful.
-# Compile of memrom.vhd was successful.
-# Compile of control.vhd was successful.
-# Compile of control_ula.vhd was successful.
-# Compile of Processor.vhd failed with 6 errors.
-# 14 compiles, 1 failed with 6 errors.
-# Compile of genImm32.vhd was successful.
-# Compile of tb_genImm32.vhd was successful.
-# Compile of ula.vhd was successful.
-# Compile of tb_ula.vhd was successful.
-# Compile of mux2_32bits.vhd was successful.
-# Compile of pc.vhd was successful.
-# Compile of adder.vhd was successful.
-# Compile of adder4.vhd was successful.
-# Compile of breg.vhd was successful.
-# Compile of memram.vhd was successful.
-# Compile of memrom.vhd was successful.
-# Compile of control.vhd was successful.
-# Compile of control_ula.vhd was successful.
-# Compile of Processor.vhd failed with 4 errors.
-# 14 compiles, 1 failed with 4 errors.
-# Compile of genImm32.vhd was successful.
-# Compile of tb_genImm32.vhd was successful.
-# Compile of ula.vhd was successful.
-# Compile of tb_ula.vhd was successful.
-# Compile of mux2_32bits.vhd was successful.
-# Compile of pc.vhd was successful.
-# Compile of adder.vhd was successful.
-# Compile of adder4.vhd was successful.
-# Compile of breg.vhd was successful.
-# Compile of memram.vhd was successful.
-# Compile of memrom.vhd was successful.
-# Compile of control.vhd was successful.
-# Compile of control_ula.vhd was successful.
-# Compile of Processor.vhd failed with 4 errors.
-# 14 compiles, 1 failed with 4 errors.
-# Compile of Processor.vhd failed with 4 errors.
-# Compile of Processor.vhd failed with 4 errors.
-# Compile of Processor.vhd failed with 2 errors.
-# Compile of Processor.vhd failed with 1 errors.
-# Compile of Processor.vhd was successful.
-# Load canceled
-# Compile of tb_RiscV.vhd was successful.
-# Compile of tb_RiscV.vhd was successful.
-vsim -gui work.testbench_riscv_processor
-# vsim -gui work.testbench_riscv_processor 
-# Start time: 18:21:38 on Jun 20,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
-# Loading work.riscv_processor(arch_processor)
-# Loading ieee.numeric_std(body)
-# Loading work.control(arch_control)
-# Loading work.genimm32(arch_genimm32)
-# ** Error: (vsim-3732) No default binding for component instance 'genImm_inst02'.
-#    The following component port is not on the entity:
-#           result_imm
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd Line: 193
-# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
-# Loading work.control_alu(arch_control_ula)
-# Loading work.pc(arch_pc)
-# Loading work.adder(arch_adder)
-# Loading work.adder4(arch_adder4)
-# Loading work.mux2_32bits(arch_mux)
-# Loading work.mem_reg(arch_breg)
-# Loading work.mem_rv(arch_memram)
-# ** Fatal: (vsim-3348) Port length (8) does not match actual length (12) for port "/testbench_riscv_processor/DUT/mem_data_inst17/address".
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd Line: 11
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 18:21:40 on Jun 20,2021, Elapsed time: 0:00:02
-# Errors: 2, Warnings: 14
-vsim -gui work.testbench
-# vsim -gui work.testbench 
-# Start time: 18:22:16 on Jun 20,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.testbench(arch_genimm32_teste)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.genimm32(arch_genimm32)
-quit -sim
-vsim -gui work.testbench_riscv_processor
-# End time: 18:22:51 on Jun 20,2021, Elapsed time: 0:00:35
-# Errors: 0, Warnings: 1
-# vsim -gui work.testbench_riscv_processor 
-# Start time: 18:22:51 on Jun 20,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
-# Loading work.riscv_processor(arch_processor)
-# Loading ieee.numeric_std(body)
-# Loading work.control(arch_control)
-# Loading work.genimm32(arch_genimm32)
-# ** Error: (vsim-3732) No default binding for component instance 'genImm_inst02'.
-#    The following component port is not on the entity:
-#           result_imm
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd Line: 193
-# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
-# Loading work.control_alu(arch_control_ula)
-# Loading work.pc(arch_pc)
-# Loading work.adder(arch_adder)
-# Loading work.adder4(arch_adder4)
-# Loading work.mux2_32bits(arch_mux)
-# Loading work.mem_reg(arch_breg)
-# Loading work.mem_rv(arch_memram)
-# ** Fatal: (vsim-3348) Port length (8) does not match actual length (12) for port "/testbench_riscv_processor/DUT/mem_data_inst17/address".
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd Line: 11
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 18:22:52 on Jun 20,2021, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 2
 vsim -gui work.testbench_riscv_processor(testbench_riscv_processor_arch)
 # vsim -gui work.testbench_riscv_processor(testbench_riscv_processor_arch) 
-# Start time: 18:23:13 on Jun 20,2021
+# Start time: 11:20:00 on Jun 29,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -177,213 +34,12 @@ vsim -gui work.testbench_riscv_processor(testbench_riscv_processor_arch)
 #    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd Line: 11
 # FATAL ERROR while loading design
 # Error loading design
-# End time: 18:23:13 on Jun 20,2021, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 2
-vsim -gui work.testbench_riscv_processor
-# vsim -gui work.testbench_riscv_processor 
-# Start time: 18:24:55 on Jun 20,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
-# Loading work.riscv_processor(arch_processor)
-# Loading ieee.numeric_std(body)
-# Loading work.control(arch_control)
-# Loading work.genimm32(arch_genimm32)
-# ** Error: (vsim-3732) No default binding for component instance 'genImm_inst02'.
-#    The following component port is not on the entity:
-#           result_imm
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd Line: 193
-# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
-# Loading work.control_alu(arch_control_ula)
-# Loading work.pc(arch_pc)
-# Loading work.adder(arch_adder)
-# Loading work.adder4(arch_adder4)
-# Loading work.mux2_32bits(arch_mux)
-# Loading work.mem_reg(arch_breg)
-# Loading work.mem_rv(arch_memram)
-# ** Fatal: (vsim-3348) Port length (8) does not match actual length (12) for port "/testbench_riscv_processor/DUT/mem_data_inst17/address".
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd Line: 11
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 18:24:56 on Jun 20,2021, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 2
-# Compile of tb_RiscV.vhd failed with 1 errors.
-# Compile of tb_RiscV.vhd failed with 6 errors.
-# Compile of tb_RiscV.vhd was successful.
-vsim -gui work.riscv_processor
-# vsim -gui work.riscv_processor 
-# Start time: 18:28:10 on Jun 20,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.riscv_processor(arch_processor)
-# Loading ieee.numeric_std(body)
-# Loading work.control(arch_control)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.genimm32(arch_genimm32)
-# ** Error: (vsim-3732) No default binding for component instance 'genImm_inst02'.
-#    The following component port is not on the entity:
-#           result_imm
-#    Time: 0 ps  Iteration: 0  Instance: /riscv_processor/genImm_inst02 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd Line: 193
-# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /riscv_processor File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
-# Loading work.control_alu(arch_control_ula)
-# Loading work.pc(arch_pc)
-# Loading work.adder(arch_adder)
-# Loading work.adder4(arch_adder4)
-# Loading work.mux2_32bits(arch_mux)
-# Loading work.mem_reg(arch_breg)
-# Loading work.mem_rv(arch_memram)
-# ** Fatal: (vsim-3348) Port length (8) does not match actual length (12) for port "/riscv_processor/mem_data_inst17/address".
-#    Time: 0 ps  Iteration: 0  Instance: /riscv_processor/mem_data_inst17 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd Line: 11
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 18:28:11 on Jun 20,2021, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 5
-vsim -gui work.testbench_riscv_processor
-# vsim -gui work.testbench_riscv_processor 
-# Start time: 18:28:34 on Jun 20,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
-# Loading work.riscv_processor(arch_processor)
-# Loading ieee.numeric_std(body)
-# Loading work.control(arch_control)
-# Loading work.genimm32(arch_genimm32)
-# ** Error: (vsim-3732) No default binding for component instance 'genImm_inst02'.
-#    The following component port is not on the entity:
-#           result_imm
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd Line: 193
-# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
-# Loading work.control_alu(arch_control_ula)
-# Loading work.pc(arch_pc)
-# Loading work.adder(arch_adder)
-# Loading work.adder4(arch_adder4)
-# Loading work.mux2_32bits(arch_mux)
-# Loading work.mem_reg(arch_breg)
-# Loading work.mem_rv(arch_memram)
-# ** Fatal: (vsim-3348) Port length (8) does not match actual length (12) for port "/testbench_riscv_processor/DUT/mem_data_inst17/address".
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd Line: 11
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 18:28:35 on Jun 20,2021, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 2
-# Compile of tb_RiscV.vhd was successful.
-vsim -gui work.testbench_riscv_processor
-# vsim -gui work.testbench_riscv_processor 
-# Start time: 18:32:27 on Jun 20,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
-# Loading work.riscv_processor(arch_processor)
-# Loading ieee.numeric_std(body)
-# Loading work.control(arch_control)
-# Loading work.genimm32(arch_genimm32)
-# ** Error: (vsim-3732) No default binding for component instance 'genImm_inst02'.
-#    The following component port is not on the entity:
-#           result_imm
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd Line: 193
-# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
-# Loading work.control_alu(arch_control_ula)
-# Loading work.pc(arch_pc)
-# Loading work.adder(arch_adder)
-# Loading work.adder4(arch_adder4)
-# Loading work.mux2_32bits(arch_mux)
-# Loading work.mem_reg(arch_breg)
-# Loading work.mem_rv(arch_memram)
-# ** Fatal: (vsim-3348) Port length (8) does not match actual length (12) for port "/testbench_riscv_processor/DUT/mem_data_inst17/address".
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd Line: 11
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 18:32:28 on Jun 20,2021, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 3
-# Compile of tb_RiscV.vhd was successful.
-vsim -gui work.testbench_riscv_processor
-# vsim -gui work.testbench_riscv_processor 
-# Start time: 18:33:22 on Jun 20,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
-# Loading work.riscv_processor(arch_processor)
-# Loading ieee.numeric_std(body)
-# Loading work.control(arch_control)
-# Loading work.genimm32(arch_genimm32)
-# ** Error: (vsim-3732) No default binding for component instance 'genImm_inst02'.
-#    The following component port is not on the entity:
-#           result_imm
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd Line: 193
-# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
-# Loading work.control_alu(arch_control_ula)
-# Loading work.pc(arch_pc)
-# Loading work.adder(arch_adder)
-# Loading work.adder4(arch_adder4)
-# Loading work.mux2_32bits(arch_mux)
-# Loading work.mem_reg(arch_breg)
-# Loading work.mem_rv(arch_memram)
-# ** Fatal: (vsim-3348) Port length (8) does not match actual length (12) for port "/testbench_riscv_processor/DUT/mem_data_inst17/address".
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd Line: 11
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 18:33:23 on Jun 20,2021, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 3
-vsim -gui work.testbench_riscv_processor
-# vsim -gui work.testbench_riscv_processor 
-# Start time: 18:43:08 on Jun 20,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
-# Loading work.riscv_processor(arch_processor)
-# Loading ieee.numeric_std(body)
-# Loading work.control(arch_control)
-# Loading work.genimm32(arch_genimm32)
-# ** Error: (vsim-3732) No default binding for component instance 'genImm_inst02'.
-#    The following component port is not on the entity:
-#           result_imm
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd Line: 193
-# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
-# Loading work.control_alu(arch_control_ula)
-# Loading work.pc(arch_pc)
-# Loading work.adder(arch_adder)
-# Loading work.adder4(arch_adder4)
-# Loading work.mux2_32bits(arch_mux)
-# Loading work.mem_reg(arch_breg)
-# Loading work.mem_rv(arch_memram)
-# ** Fatal: (vsim-3348) Port length (8) does not match actual length (12) for port "/testbench_riscv_processor/DUT/mem_data_inst17/address".
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd Line: 11
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 18:43:09 on Jun 20,2021, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 2
+# End time: 11:20:01 on Jun 29,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 10
 # Compile of genImm32.vhd was successful.
 vsim -gui work.testbench_riscv_processor
 # vsim -gui work.testbench_riscv_processor 
-# Start time: 18:51:57 on Jun 20,2021
+# Start time: 11:23:14 on Jun 29,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -395,10 +51,32 @@ vsim -gui work.testbench_riscv_processor
 # Loading ieee.numeric_std(body)
 # Loading work.control(arch_control)
 # Loading work.genimm32(arch_genimm32)
-# ** Error: (vsim-3732) No default binding for component instance 'genImm_inst02'.
-#    The following component port is not on the entity:
-#           result_imm
-#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd Line: 193
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "result_imm".
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02 File: C:/Users/sampa/Desktop/RiscV ISA32/genImm32.vhd Line: 9
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 11:23:15 on Jun 29,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of genImm32.vhd failed with 1 errors.
+# Compile of genImm32.vhd failed with 1 errors.
+# Compile of genImm32.vhd failed with 1 errors.
+# Compile of genImm32.vhd failed with 9 errors.
+# Compile of genImm32.vhd failed with 1 errors.
+# Compile of genImm32.vhd was successful.
+vsim -gui work.testbench_riscv_processor
+# vsim -gui work.testbench_riscv_processor 
+# Start time: 11:31:12 on Jun 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
+# Loading work.riscv_processor(arch_processor)
+# Loading ieee.numeric_std(body)
+# Loading work.control(arch_control)
+# Loading work.genimm32(arch_genimm32)
 # ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
 #    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
 # Loading work.control_alu(arch_control_ula)
@@ -412,5 +90,213 @@ vsim -gui work.testbench_riscv_processor
 #    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/memram.vhd Line: 11
 # FATAL ERROR while loading design
 # Error loading design
-# End time: 18:51:58 on Jun 20,2021, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 3
+# End time: 11:31:13 on Jun 29,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 9
+# Compile of memram.vhd failed with 1 errors.
+# Compile of memram.vhd failed with 1 errors.
+# Compile of memram.vhd was successful.
+# Compile of memram.vhd was successful.
+# Compile of Processor.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Processor.vhd was successful.
+vsim -gui work.testbench_riscv_processor(testbench_riscv_processor_arch)
+# vsim -gui work.testbench_riscv_processor(testbench_riscv_processor_arch) 
+# Start time: 11:43:13 on Jun 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
+# Loading work.riscv_processor(arch_processor)
+# Loading ieee.numeric_std(body)
+# Loading work.control(arch_control)
+# Loading work.genimm32(arch_genimm32)
+# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
+# Loading work.control_alu(arch_control_ula)
+# Loading work.pc(arch_pc)
+# Loading work.adder(arch_adder)
+# Loading work.adder4(arch_adder4)
+# Loading work.mux2_32bits(arch_mux)
+# Loading work.mem_reg(arch_breg)
+# Loading work.mem_data(bdf_type)
+# Loading work.mem_rom(arch_mem_rom)
+# ** Error: (vsim-3732) No default binding for component instance 'mem_instr_inst18'.
+#    The following component port is not on the entity:
+#           dataout
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_instr_inst18 File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd Line: 300
+# Error loading design
+# End time: 11:43:14 on Jun 29,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 7
+# Compile of Processor.vhd failed with 1 errors.
+# Compile of Processor.vhd was successful.
+vsim -gui work.testbench_riscv_processor
+# vsim -gui work.testbench_riscv_processor 
+# Start time: 11:44:38 on Jun 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
+# Loading work.riscv_processor(arch_processor)
+# Loading ieee.numeric_std(body)
+# Loading work.control(arch_control)
+# Loading work.genimm32(arch_genimm32)
+# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
+# Loading work.control_alu(arch_control_ula)
+# Loading work.pc(arch_pc)
+# Loading work.adder(arch_adder)
+# Loading work.adder4(arch_adder4)
+# Loading work.mux2_32bits(arch_mux)
+# Loading work.mem_reg(arch_breg)
+# Loading work.mem_data(bdf_type)
+# Loading work.mem_rom(arch_mem_rom)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench_riscv_processor/DUT/genImm_inst02/result_imm(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+add wave sim:/testbench_riscv_processor/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_reg_inst16
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_reg_inst16
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_reg_inst16
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/adder4_inst07
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+quit -sim
+# End time: 11:47:17 on Jun 29,2021, Elapsed time: 0:02:39
+# Errors: 1, Warnings: 17
+# Compile of genImm32.vhd was successful.
+# Compile of tb_genImm32.vhd was successful.
+# Compile of ula.vhd was successful.
+# Compile of tb_ula.vhd was successful.
+# Compile of mux2_32bits.vhd was successful.
+# Compile of pc.vhd was successful.
+# Compile of adder.vhd was successful.
+# Compile of adder4.vhd was successful.
+# Compile of breg.vhd was successful.
+# Compile of memram.vhd was successful.
+# Compile of memrom.vhd was successful.
+# Compile of control.vhd was successful.
+# Compile of control_ula.vhd was successful.
+# Compile of Processor.vhd was successful.
+# Compile of tb_RiscV.vhd was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.testbench_riscv_processor
+# vsim -gui work.testbench_riscv_processor 
+# Start time: 11:47:47 on Jun 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench_riscv_processor(testbench_riscv_processor_arch)
+# Loading work.riscv_processor(arch_processor)
+# Loading ieee.numeric_std(body)
+# Loading work.control(arch_control)
+# Loading work.genimm32(arch_genimm32)
+# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
+# Loading work.control_alu(arch_control_ula)
+# Loading work.pc(arch_pc)
+# Loading work.adder(arch_adder)
+# Loading work.adder4(arch_adder4)
+# Loading work.mux2_32bits(arch_mux)
+# Loading work.mem_reg(arch_breg)
+# Loading work.mem_data(bdf_type)
+# Loading work.mem_rom(arch_mem_rom)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench_riscv_processor/DUT/genImm_inst02/result_imm(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+add wave sim:/testbench_riscv_processor/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_reg_inst16
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_reg_inst16
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_reg_inst16
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/adder4_inst07
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+run
+run
+run
+run -continue
+run -continue
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3473) Component instance "alu_inst03 : ula" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT File: C:/Users/sampa/Desktop/RiscV ISA32/RiscV/Processor.vhd
+# ** Warning: (vsim-8683) Uninitialized out port /testbench_riscv_processor/DUT/genImm_inst02/result_imm(31 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU) to the signal network.
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_data_inst17
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_reg_inst16
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_reg_inst16
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/mem_reg_inst16
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/adder4_inst07
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_riscv_processor/DUT/genImm_inst02

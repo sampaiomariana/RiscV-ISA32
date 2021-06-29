@@ -149,7 +149,7 @@ component mem_reg
     data2_out : out std_logic_vector(31 downto 0));
 end component;
 
-component mem_rv
+component mem_data
   port (
     clock : in std_logic;
     we : in std_logic;
@@ -162,7 +162,7 @@ end component;
 component mem_rom
   port (
     address: in std_logic_vector(11 downto 0);
-  	dataout: out std_logic_vector(31 downto 0));
+  	data_out: out std_logic_vector(31 downto 0));
 end component;
 
 
@@ -285,7 +285,7 @@ begin
     data1_out => rs1_signal,
     data2_out => rs2_signal);
 
-  mem_data_inst17 : mem_rv
+  mem_data_inst17 : mem_data
   port map (
     clock => clock,
     we => memWrite_signal,
@@ -297,7 +297,7 @@ begin
   mem_instr_inst18 : mem_rom
   port map (
     address => addr_out_signal(11 downto 0),
-    dataout => instruction_signal);
+    data_out => instruction_signal);
 
   instruction <= instruction_signal;
   rs1 <= rs1_signal;

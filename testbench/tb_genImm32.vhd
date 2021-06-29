@@ -11,11 +11,11 @@ architecture arch_genImm32_teste of testbench is
 component genImm32
 	port (
 		instr : in std_logic_vector(31 downto 0);
-		imm32: out signed(31 downto 0));
+		result_imm: out std_logic_vector(31 downto 0));
 end component;
 
 signal entrada: std_logic_vector (31 downto 0);
-signal saida: signed(31 downto 0);
+signal saida: std_logic_vector(31 downto 0);
 
 begin
 	teste: genImm32 port map (entrada,saida);
