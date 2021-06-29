@@ -1,5 +1,5 @@
 # RiscV-ISA32
-Esse repositório é destinado a criação de um processador uniciclo RISCV ISA-32.
+Esse repositório é destinado para o desenvolvimento de um processador uniciclo RISCV ISA-32.
 
 ## Linguagem 
 
